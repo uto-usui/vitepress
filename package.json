@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "global": "^4.4.0",
-    "vitepress": "^0.7.4"
+    "vitepress": "^0.8.1"
   }
 }
