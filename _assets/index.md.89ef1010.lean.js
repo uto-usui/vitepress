@@ -1,0 +1,1 @@
+import{g as t,f as o}from"./common-dca46cb9.js";const e='{"title":"Home","frontmatter":{"home":true,"heroImage":"/logo.svg","actionText":"info","actionLink":"/info/","footer":"©︎ uto-usui"},"relativePath":"index.md","lastUpdated":1606187286074.7805}';var r={};r.render=function(e,r,a,n,i,m){return o(),t("div")};export default r;export{e as __pageData};
