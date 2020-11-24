@@ -1,0 +1,1 @@
+import{g as r,f as t,C as e}from"./common-fa165784.js";const a='{"title":"info","frontmatter":{"title":"info","pageClass":"info"},"relativePath":"info/index.md","lastUpdated":1606196513783.4807}';var o={};const n=e('',2);o.render=function(e,a,o,i,l,f){return t(),r("div",null,[n])};export default o;export{a as __pageData};
