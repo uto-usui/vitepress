@@ -31,7 +31,7 @@
   "private": true,
   "scripts": {
     "docs:build": "vitepress build docs",
-    "docs:build:GitHub": "VITEPRESS_BASE=/laboobal/ vitepress build docs",
+    "docs:build:GitHub": "VITEPRESS_BASE=/vitepress/ vitepress build docs",
     "docs:dev": "vitepress dev docs",
     "lint:js": "eslint --fix --ext .js,.vue docs/.vitepress/components/"
   },
