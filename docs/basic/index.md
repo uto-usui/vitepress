@@ -46,3 +46,13 @@ This is a dangerous warning
 console.log('Hello world')
 console.log('This is custom container')
 ```
+
+## Using Vue components in Markdown
+
+```js
+<Test />
+
+<script setup>
+  import Test from '../.vitepress/components/Test.vue'
+</script>
+```
