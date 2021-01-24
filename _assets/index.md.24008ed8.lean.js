@@ -1,1 +1,0 @@
-import{g as t,f as o}from"./common-fa165784.js";const e='{"title":"Home","frontmatter":{"home":true,"heroImage":"/logo.svg","actionText":"info","actionLink":"/info/","footer":"©︎ uto-usui"},"relativePath":"index.md","lastUpdated":1606196513783.4807}';var r={};r.render=function(e,r,a,n,i,f){return o(),t("div")};export default r;export{e as __pageData};
