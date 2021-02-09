@@ -36,6 +36,8 @@ module.exports = {
     sidebarDepth: 3,
     editLinks: true,
     editLinkText: '✍🏻 edit?',
+    docsRepo: 'uto-usui/laboobal',
+    lastUpdated: 'Last Updated',
   },
 
   markdown: {
