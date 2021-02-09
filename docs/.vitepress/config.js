@@ -1,5 +1,3 @@
-const path = require('path')
-
 module.exports = {
   base: process.env.VITEPRESS_BASE || '/',
 
@@ -48,23 +46,5 @@ module.exports = {
     toc: {
       containerHeaderHtml: '<strong>Table of Contents</strong>',
     },
-  },
-
-  configureWebpack: (config, isServer) => {
-    if (!isServer) {
-      config.module.rules.push({
-        enforce: 'pre',
-        test: /\.(js|vue)$/,
-        loader: 'eslint-loader',
-        exclude: /(node_modules)/,
-      })
-    }
-
-    // Solely to speed up Vuepress, if you need to debug your setup
-    config.devtool = false
-
-    // from .vuepress/config.js
-    config.resolve.alias['@'] = path.join(__dirname)
-    config.resolve.alias['@assets'] = path.join(__dirname, 'assets')
   },
 }
