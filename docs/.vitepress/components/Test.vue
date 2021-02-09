@@ -2,7 +2,7 @@
   <section ref="wrap" class="test">___test component___ {{ text }}</section>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent, ref } from 'vue'
 
 export default defineComponent({
