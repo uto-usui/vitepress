@@ -18,7 +18,7 @@ title: Basic
 ## Directory
 
 ```bath{5}
-- .vitepress/        for VuePress
+- .vitepress/       for VuePress
     - components/   called components to md files 
     - theme/        site theme files
     - config.js     config file
@@ -46,6 +46,14 @@ This is a dangerous warning
 console.log('Hello world')
 console.log('This is custom container')
 ```
+
+### image
+
+```bath
+![An image](../images/01.jpg)
+```
+
+![An image](../images/01.jpg)
 
 ## Using Vue components in Markdown
 
