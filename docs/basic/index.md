@@ -4,12 +4,12 @@ title: Basic
 
 # Basic
 
+[[TOC]]
+
+## Links
+
 * [🐱 VitePress](https://github.com/vuejs/vitepress)
 * [📚 VitePress Docs](https://vitepress.vuejs.org/)
-
-**TOC**
-
-[[TOC]]
 
 ## News
 
@@ -18,12 +18,12 @@ title: Basic
 ## Directory
 
 ```bath{5}
-- .vuepress/        for VuePress
-    - public/       static files
+- .vitepress/        for VuePress
     - components/   called components to md files 
     - theme/        site theme files
     - config.js     config file
-- README.md         page
+- public/           static files
+- index.md          page
 ```
 
 ## Tips
