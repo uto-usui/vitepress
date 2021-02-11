@@ -50,10 +50,10 @@ console.log('This is custom container')
 ### image
 
 ```bath
-![An image](../images/01.jpg)
+![An image](/images/01.jpg)
 ```
 
-![An image](../images/01.jpg)
+![An image](/images/01.jpg)
 
 ## Using Vue components in Markdown
 
