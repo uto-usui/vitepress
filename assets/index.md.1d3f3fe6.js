@@ -1,1 +1,0 @@
-import{o as t,c as o}from"./app.13bb54f9.js";const e='{"title":"Home","description":"","frontmatter":{"home":true,"heroImage":"/logo.svg","actionText":"info","actionLink":"/info/","footer":"©︎ uto-usui"},"relativePath":"index.md","lastUpdated":1612888897992}',r={};r.render=function(e,r,i,n,a,d){return t(),o("div")};export default r;export{e as __pageData};
