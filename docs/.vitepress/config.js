@@ -4,7 +4,15 @@ module.exports = {
   title: 'VitePress',
   description: 'VitePress test project',
 
-  head: [],
+  head: [
+    [
+      'script',
+      {
+        src:
+          'https://cdn-blocks.karte.io/d84afbe764cb815ff73a6dcee4075710/builder.js',
+      },
+    ],
+  ],
 
   plugins: [],
 
@@ -36,7 +44,7 @@ module.exports = {
     sidebarDepth: 3,
     editLinks: true,
     editLinkText: '✍🏻 edit?',
-    docsRepo: 'uto-usui/laboobal',
+    docsRepo: 'uto-usui/vitepress',
     lastUpdated: 'Last Updated',
   },
 
