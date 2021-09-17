@@ -35,10 +35,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "docs:build": "vitepress build docs",
+    "docs:build": "VITEPRESS_BASE=/ vitepress build docs",
     "docs:build:GitHub": "VITEPRESS_BASE=/vitepress/ vitepress build docs",
     "docs:dev": "vitepress dev docs",
-    "lint:js": "eslint --fix --ext .js,.vue docs/.vitepress/components/"
+    "lint:js": "eslint --fix --ext .js,.vue docs/.vitepress/components/",
+    "deploy": "VITEPRESS_BASE=/ vitepress build docs && netlify deploy -d docs/.vitepress/dist --prod && netlify open:site"
   },
   "dependencies": {
     "global": "^4.4.0",
